@@ -1,0 +1,210 @@
+/// <summary>
+      /// Paybotique intergation for Qiwi payment system.
+      /// </summary>
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new Currencies[] { Currencies.USD })]
+      PaybotiqueQiwi = 0,
+      /// <summary>
+      /// Paybotique intergation for Yandex money.
+      /// </summary>
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new Currencies[] { Currencies.USD })]
+      PaybotiqueYandexMoney = 1,
+      /// <summary>
+      /// Paybotique intergation for credit cards.
+      /// </summary>
+      [PaymentMethod("CC")]
+      [Attributes.Currencies(new Currencies[] { Currencies.USD })]
+      PaybotiqueCreditCards = 2,
+      /// <summary>
+      /// Paybotique intergation for Bank transfer.
+      /// </summary>
+
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new Currencies[] { Currencies.USD })]
+      PaybotiqueBankTransfer = 3,
+      /// <summary>
+      /// TrustPay payment system.
+      /// </summary>
+      [PaymentMethod("CC")]
+      [Attributes.Currencies(new Currencies[] { Currencies.USD, Currencies.EUR })]
+      TrustPay = 4,
+      /// <summary>
+      /// Neteller payment system.
+      /// </summary>
+
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new Currencies[] { Currencies.USD, Currencies.EUR, Currencies.GBP })]
+      Neteller = 5,
+      /// <summary>
+      /// Skrill payment system.
+      /// </summary>
+
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new Currencies[] { Currencies.USD, Currencies.EUR })]
+      Skrill = 6,
+      /// <summary>
+      /// Payobin payment system.
+      /// </summary>
+
+      [PaymentMethod("CC")]
+      [Attributes.Currencies(new Currencies[] { Currencies.USD, Currencies.EUR })]
+      Payobin = 7,
+      /// <summary>
+      /// Astech payment system.
+      /// </summary>
+
+      [PaymentMethod("CC")]
+      [Attributes.Currencies(new[] { Currencies.USD, Currencies.EUR, Currencies.GBP })]
+      Astech = 8,
+      /// <summary>
+      /// ZotaPay payment system.
+      /// </summary>
+
+      [PaymentMethod("CC")]
+      [Attributes.Currencies(new[] { Currencies.USD, Currencies.EUR })]
+      ZotaPay = 9,
+      /// <summary>
+      /// YuuPay payment system.
+      /// </summary>
+
+      [PaymentMethod("CC")]
+      [Attributes.Currencies(new[] { Currencies.USD, Currencies.EUR })]
+      YuuPay = 10,
+      /// <summary>
+      /// LavaPay payment system.
+      /// </summary>
+
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new[] { Currencies.USD, Currencies.EUR })]
+      LavaPay = 11,
+      /// <summary>
+      /// OkPay payment system.
+      /// </summary>
+
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new Currencies[] { Currencies.USD, Currencies.EUR })]
+      OkPay = 12,
+      /// <summary>
+      /// EPay payment system.
+      /// </summary>
+
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new[] { Currencies.USD, Currencies.EUR, Currencies.GBP })]
+      EPay = 13,
+      /// <summary>
+      /// EPay intergation for Visa.
+      /// </summary>
+
+      [PaymentMethod("CC")]
+      [Attributes.Currencies(new[] { Currencies.USD, Currencies.EUR, Currencies.GBP })]
+      EPayVisa = 14,
+      /// <summary>
+      /// EPay intergation for Gift payment system.
+      /// </summary>
+
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new Currencies[] { Currencies.USD, Currencies.EUR, Currencies.GBP })]
+      EPayGift = 15,
+      /// <summary>
+      /// EPay intergation for Instant payment system.
+      /// </summary>
+
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new[] { Currencies.USD, Currencies.EUR, Currencies.GBP })]
+      EPayInstant = 16,
+      /// <summary>
+      /// EPay intergation for Sofort payment system.
+      /// </summary>
+
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new[] { Currencies.USD, Currencies.EUR, Currencies.GBP })]
+      EPaySofort = 17,
+      /// <summary>
+      /// EPay intergation for PostePay payment system.
+      /// </summary>
+
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new[] { Currencies.USD, Currencies.EUR, Currencies.GBP })]
+      EPayPostePay = 18,
+      /// <summary>
+      /// EPay intergation for Ideal payment system.
+      /// </summary>
+
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new[] { Currencies.USD, Currencies.EUR, Currencies.GBP })]
+      EPayIdeal = 19,
+
+      /// <summary>
+      /// Cashu intergation for Cashu payment system.
+      /// </summary>
+
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new[] { Currencies.USD, Currencies.EUR, Currencies.GBP })]
+      Cashu = 20,
+
+
+      /// <summary>
+      /// Astech intergation for Cashu payment system.
+      /// </summary>
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new[] { Currencies.USD, Currencies.EUR, Currencies.GBP })]
+      EPayCUP = 21,
+
+      // mega transfer 22
+
+      /// <summary>
+      /// Paybotique intergation for credit cards (PayboutiqueCascade).
+      /// </summary>
+      [PaymentMethod("CC")]
+      [Attributes.Currencies(new[] { Currencies.USD })]
+      PaybotiqueCascade = 23,
+
+      /// <summary>
+      /// Truevo payment system ( aka Swish )
+      /// </summary>
+      [Attributes.Currencies(new[] { Currencies.USD })]
+      [PaymentMethod("CC")]
+      Truevo = 24,
+
+      /// <summary>
+      /// Paybotique intergation for crypto coins
+      /// </summary>
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new[] { Currencies.USD })]
+      PaybotiqueCrypto = 25,
+
+      /// <summary>
+      /// Bank transfer method
+      /// </summary>
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new[] { Currencies.USD })]
+      BankTransfer = 26,
+
+      /// <summary>
+      /// ECorePay payment system
+      /// </summary>
+      [PaymentMethod("CC")]
+      [Attributes.Currencies(new[] { Currencies.USD })]
+      ECorePay = 27,
+
+      /// <summary>
+      /// SpectroCoin integration
+      /// </summary>
+
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new[] { Currencies.USD, Currencies.BTC })]
+      SpectroCoin = 28,
+
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new[] { Currencies.USD })]
+      ETHDeposit = 29,
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new[] { Currencies.USD })]
+      BTCDeposit = 30,
+      [PaymentMethod("Other")]
+      [Attributes.Currencies(new[] { Currencies.USD })]
+      BCHDeposit = 31
+  }
+
+}

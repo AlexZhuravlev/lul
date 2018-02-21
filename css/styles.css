@@ -60,6 +60,12 @@ nav li {
 .top-menu li.active {
 	background: #29c5e6;
 	color: #fff;
+	cursor: pointer;
+}
+
+.top-menu li:hover{
+	background-color: #89eaff;
+	color: #fff;
 }
 
 .top-menu a {
